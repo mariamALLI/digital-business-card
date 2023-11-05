@@ -8,8 +8,6 @@ import Interest from './components/Interest';
 import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className='container'>
@@ -19,11 +17,6 @@ function App() {
         <About />
         <Interest />
         <Footer />
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
       </div>
     </>
   )
